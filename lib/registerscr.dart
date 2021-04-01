@@ -30,6 +30,13 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
+              Text(
+                'Sign Up',
+                style: TextStyle(
+                    fontSize: 35.0,
+                    fontWeight: FontWeight.w800,
+                    color: Colors.black),
+              ),
               SizedBox(
                 height: 48.0,
               ),
@@ -62,7 +69,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 height: 24.0,
               ),
               RoundedButton(
-                buttonText: 'Register',
+                buttonText: 'Sign Up',
                 buttonColor: Colors.blueAccent,
                 action: () async {
                   setState(() {

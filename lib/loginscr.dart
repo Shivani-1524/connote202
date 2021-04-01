@@ -32,6 +32,13 @@ class _LoginScreenState extends State<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
+              Text(
+                'Log In',
+                style: TextStyle(
+                    fontSize: 35.0,
+                    fontWeight: FontWeight.w800,
+                    color: Colors.black),
+              ),
               SizedBox(
                 height: 48.0,
               ),
